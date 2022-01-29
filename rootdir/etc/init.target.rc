@@ -63,7 +63,6 @@ on late-fs
 
 on post-fs
     start vendor.qseecomd
-    wait_for_prop vendor.sys.listeners.registered true
     write /dev/ipa 1
 
 on post-fs-data
