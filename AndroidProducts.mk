@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_r2p.mk
+    $(LOCAL_DIR)/cipher_r2p.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_r2p-user \
-    awaken_r2p-userdebug \
-    awaken_r2p-eng
+    cipher_r2p-user \
+    cipher_r2p-userdebug \
+    cipher_r2p-eng
